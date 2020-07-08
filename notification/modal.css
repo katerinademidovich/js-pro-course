@@ -1,0 +1,56 @@
+.mainWindow {
+  position: fixed;
+  margin: 5% 25%;
+  width: 50%;
+  height: 60%;
+  border: 2px solid black;
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(220, 246, 246);
+}
+.listingTable {
+  height: 80%;
+  display: flex;
+  align-content: space-between;
+  align-items: flex-start;
+  padding: 1vw;
+}
+.textInformation {
+  margin: 1vw;
+  padding: 1vw;
+  border: 2px solid black;
+}
+.closeButton {
+  padding-top: 0.5vw;
+  background-color: inherit;
+  border: none;
+  font-size: 2vw;
+  font-family: "Rubik", sans-serif;
+}
+.footer {
+  display: flex;
+}
+.bottom {
+  margin-right: 20%;
+}
+.checkbox {
+  margin-left: 2vw;
+}
+.btn-prev-next {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  border: 2px solid cornflowerblue;
+  margin: auto 1vw;
+  background-color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5vw;
+}
+.numberPageButton {
+  width: 1.5vw;
+  height: 1.5vw;
+  border-radius: 50%;
+  border: 1px solid cornflowerblue;
+  background-color: cornflowerblue;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.8vw;
+}
